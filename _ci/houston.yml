@@ -1,0 +1,7 @@
+name: P1-Jenkins-integration-demo
+description: A simple test for integration with Jenkins
+serviceTemplateName: p1-service
+serviceTemplateRef: master
+inputs:
+  defaults:
+    git_repo: 'https://github.com/dg-infrastructure/Elastic-Beanstalk-Hello-World-App'
